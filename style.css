@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(47, 86, 136);
+  transition: 0.3s linear;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.app {
+  padding: 30px 20px;
+  margin-top: 80px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.app h1 {
+  text-align: center;
+  color: blue;
+}
+.app form {
+  margin-top: 30px;
+}
+.app form .form-group {
+  display: flex;
+}
+.app form .form-group input {
+  width: 100%;
+  padding: 0px 10px;
+}
+.app form .form-group button {
+  padding: 15px 30px;
+  background-color: rgb(47, 86, 136);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.app form .form-group button:active {
+  transform: scale(0.9);
+}
+.app .list-color {
+  margin-top: 50px;
+}
+.app .list-color ul li {
+  position: relative;
+  margin-bottom: 10px;
+}
+.app .list-color ul li input {
+  height: 50px;
+  background-color: green;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.app .list-color ul li input:active {
+  transform: scale(0.95);
+}
+.app .list-color ul li:last-child {
+  margin-bottom: 0;
+}
+.app .list-color ul li i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: red;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
